@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="title_bar_height">48.0dip</dimen>
+    <dimen name="landscape_title_bar_height">40.0dip</dimen>
+    <dimen name="flights_list_height">399.0dip</dimen>
+    <dimen name="flight_detail_flight_bg_width">145.0dip</dimen>
+    <dimen name="flight_detail_scrollview_height">456.0dip</dimen>
+    <dimen name="flight_order_confirm_scrollview_height">456.0dip</dimen>
+    <dimen name="hotel_detail_info_height">264.0dip</dimen>
+    <dimen name="hotel_order_confirm_height">456.0dip</dimen>
+    <dimen name="card_layout_height">456.0dip</dimen>
+    <dimen name="arrive_time_list_height">320.0dip</dimen>
+    <dimen name="airport_get_list_height">540.0dip</dimen>
+    <dimen name="city_get_list_height">340.0dip</dimen>
+    <dimen name="city_send_list_height">222.0dip</dimen>
+    <dimen name="city_send_item_height">32.0dip</dimen>
+    <dimen name="index_gridview_top">20.0dip</dimen>
+    <dimen name="index_gridview_verticalSpacing">8.0dip</dimen>
+    <dimen name="index_index_bottom">17.0dip</dimen>
+    <dimen name="hotel_order_detail_scrollview_height">456.0dip</dimen>
+</resources>

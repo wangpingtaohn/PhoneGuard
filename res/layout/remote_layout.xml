@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/pw_set_bg"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/send_tv"
+	android:textColor="#FF0000"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</TextView>
+	<TextView android:text="@string/send_num_tv"
+	android:textColor="#FF0000"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:id="@+id/alarm_num_ET"
+		android:layout_width="match_parent"></EditText>
+		<TextView android:text="@string/login_pw_tv"
+		android:textColor="#FF0000"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<EditText android:inputType="textPassword"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:id="@+id/alarm_pw_et"></EditText>
+	<Button android:id="@+id/alarm_btn" android:layout_height="wrap_content"
+		android:textColor="#FF0000"
+		android:background="@drawable/btn_green_selector"
+		android:layout_width="match_parent" android:text="@string/alarm_btn"></Button>
+</LinearLayout>

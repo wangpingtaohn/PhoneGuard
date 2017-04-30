@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+	android:id="@+id/layout" 
+	android:background="@drawable/layout_bg" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView 
+	    android:id="@+id/titleimage" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="48.0dip" />
+    <RelativeLayout
+	    android:gravity="center_vertical" 
+	    android:id="@+id/user_info" 
+	    android:visibility="gone" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@+id/titleimage">
+    <TextView 
+        android:id="@+id/user_name" 
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="25.0dip" 
+        android:singleLine="true" 
+        android:layout_alignParentLeft="true" 
+        style="@style/text_12_white_sdg1"
+     />
+     <TextView 
+        android:id="@+id/current_date" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="25.0dip" 
+        android:layout_alignParentRight="true" 
+        style="@style/text_12_white_sdg1"
+      />
+    </RelativeLayout>
+    <GridView 
+	    android:gravity="center" 
+	    android:id="@+id/grid_view" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="@dimen/index_gridview_top" 
+	    android:verticalSpacing="@dimen/index_gridview_verticalSpacing" 
+	    android:stretchMode="columnWidth" 
+	    android:numColumns="3" 
+	    android:layout_below="@+id/user_info" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, PhoneGuardActivity!</string>
+	<string name="app_name">手机防盗软件</string>
+	<string name="login_pw_tv">用户密码</string>
+	<string name="login_pw_et">请输入密码</string>
+	<string name="login_ok_btn">登陆</string>
+	<string name="login_cancel_btn">退出</string>
+	<string name="login_find_btn">找回密码</string>
+	<string name="login_pw_error">密码错误</string>
+	<string name="set_pw_tv">请输入密码</string>
+	<string name="res_set_pw_tv">请输入旧密码</string>
+	<string name="send_num_tv">请输入手机号</string>
+	<string name="set_pw_comfirm_tv">请再次输入密码</string>
+	<string name="res_set_pw_comfirm_tv">请输入新密码</string>
+	<string name="set_pw_question">请选择问题</string>
+	<string name="set_pw_answer">请输入答案</string>
+	<string name="set_pw_btn">设置</string>
+	<string name="set_pw_different">两次输入密码不一致</string>
+	<string name="set_pw_success">设置密码成功</string>
+	<string name="set_friend_success">设置好友信息成功</string>
+	<string name="set_friend_failed">好友号码不能为空,请输入好友号码</string>
+	<string name="set_pw_empty">密码不能为空</string>
+	<string name="send_sms">您好友的手机可能已丢失,请协助确认!</string>
+	<string name="alarm_btn">发送</string>
+	<string name="alarm_info">报警信息已发送</string>
+	<string name="send_info">信息发送已发送</string>
+	<string name="backup_btn">开始备份</string>
+	<string name="help_title">手机防盗软件</string>
+	<string name="help_info">手机防盗能为您实现: \n 1.
+		在SIM卡被更换时,自动锁定手机,需要输入您自己设定的密码才能解锁正常使用\n 2.
+		在SIM卡被更换时,自动发送通知短信到您设定的一个安全号码上,让您得知对方号码\n 3.发送短信备份原手机的联系人列表\n
+		4.发送短信删除sd card中的信息\n 5.对手机进行跟中定位，并发出报警声音，有助于找回手机\n</string>
+	<string name="lock_screen_info">远程锁定好友手机: \n
+		你可以使用如下协议格式(#lock#密码)\n来锁定手机,例如#lock#123456\n
+	</string>
+	<string name="back_info">备份好友手机联系人: \n
+		你可以使用如下协议格式(#backup#密码)\n来备份好友手机联系人
+		把短信发送至您手机上,\n例如#backup#123456\n
+	</string>
+	<string name="delete_info">删除好友手机里的图片,\n音频,视频文件及联系人:\n
+		你可以使用如下协议格式(#delete#密码)\n来锁定手机,例如#delete#123456\n
+	</string>
+	<string name="salarm_info">远程报警:\n
+		你可以使用如下协议格式(#alarm#密码)\n来锁定手机,例如#alarm#123456\n
+	</string>
+	<string name="location_info">远程定位好友手机: \n
+		你可以使用如下协议格式(#location#密码)\n来锁定手机,例如#location#123456\n
+	</string>
+</resources>

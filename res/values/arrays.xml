@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question_arrays">
+    	<item>你的出生地</item>
+    	<item>你的生日</item>
+    	<item>你的小学老师</item>
+    </string-array>
+    
+    <string-array name="remote_arrays">
+    	<item>锁定屏幕</item>
+    	<item>备份数据</item>
+    	<item>销毁数据</item>
+    	<item>远程定位</item>
+    	<item>立即报警</item>
+    	<item>个人帮助</item>
+    </string-array>
+</resources>

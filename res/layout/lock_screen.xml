@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:background="@drawable/layout_bg"
+	android:layout_height="fill_parent" android:orientation="vertical">
+	<TextView android:layout_height="wrap_content" 
+    		android:layout_marginTop="50dp"
+    		android:gravity="center_horizontal"
+    		android:text="SIM卡已更换,请重新输入密码解锁"
+    		android:textColor="#FF0000"
+    		android:layout_width="match_parent"/>
+    <EditText android:layout_height="wrap_content" 
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:singleLine="true" 
+    android:hint="@string/login_pw_et" 
+    android:id="@+id/lock_screen_ET"></EditText>
+
+	<Button android:text="解锁" android:id="@+id/lock_ok_btn"
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/btn_green_selector"
+		android:layout_height="wrap_content" android:layout_width="wrap_content">
+		</Button>
+</LinearLayout>

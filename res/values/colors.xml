@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="yellow">#ffffff00</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_gray">#ff585858</color>
+    <color name="gray">#ff333333</color>
+    <color name="lighter_gray">#ff666666</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#ff124e96</color>
+    <color name="light_blue">#ffacd7ff</color>
+    <color name="dark_orange">#fff85d00</color>
+    <color name="orange">#ffffd87c</color>
+    <color name="red">#fff85d00</color>
+    <color name="brown">#ff654019</color>
+    <color name="light_gray">#ff9b9b9b</color>
+    <color name="list_dark">#ff001023</color>
+    <color name="list_light">#ff203249</color>
+    <color name="list_arrive">#ff00ff8a</color>
+    <color name="list_late">#ffff2a00</color>
+    <color name="list_cancel">#ffff9600</color>
+</resources>

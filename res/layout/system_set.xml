@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:background="@drawable/layout_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout 
+    android:background="@drawable/shape_background" 
+    android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="10.0dip" 
+     android:layout_marginTop="10.0dip" 
+     android:layout_marginRight="10.0dip">
+     	
+     	<!-- 标题 -->
+        <LinearLayout 
+        android:gravity="center_vertical" 
+        android:orientation="vertical" 
+        android:id="@+id/title1" 
+        android:background="@drawable/round_angle_title_bar" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        
+            <TextView 
+            android:gravity="center_vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10.0dip" 
+            android:text="系统设置" 
+            android:layout_weight="1.0" 
+            style="@style/text_18_white_sdg5" />
+            
+            <ImageView android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:src="@drawable/split_line" />
+            
+        </LinearLayout>
+        
+        <!-- 好友电话1 -->
+        <RelativeLayout 
+        android:id="@+id/friend_number1_info" 
+        android:background="@drawable/shape_background_bottom" 
+        android:layout_width="fill_parent" 
+        android:layout_height="44.0dip" 
+        android:layout_below="@+id/title1">
+            <TextView android:textSize="16.0sp" 
+            android:textColor="#ff000000" 
+            android:id="@+id/textview_friend_number1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="13.0dip" 
+            android:text="好友电话1" 
+            android:layout_centerVertical="true" />
+            <EditText 
+            android:textSize="16.0sp" 
+            android:textColor="@color/gray" 
+            android:id="@+id/edit_friend_number1" 
+            android:layout_width="160.0dip" 
+            android:layout_height="40.0dip" 
+            android:layout_marginLeft="13.0dip" 
+            android:lines="1" android:maxLength="14" 
+            android:inputType="phone"
+            android:layout_toRightOf="@+id/textview_friend_number1" 
+            android:layout_centerVertical="true" />
+        </RelativeLayout>
+        
+        <!-- 分隔线 -->
+        <ImageView android:id="@+id/line0" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/split_line" 
+        android:layout_below="@+id/friend_number1_info" />
+        <!-- 好友电话2 -->
+        <RelativeLayout 
+        android:id="@+id/friend_number2_info" 
+        android:background="@drawable/shape_background_bottom" 
+        android:layout_width="fill_parent" 
+        android:layout_height="44.0dip" 
+        android:layout_below="@+id/line0">
+            <TextView android:textSize="16.0sp" 
+            android:textColor="#ff000000" 
+            android:id="@+id/textview_friend_number2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="13.0dip" 
+            android:text="好友电话2" 
+            android:layout_centerVertical="true" />
+            <EditText 
+            android:textSize="16.0sp" 
+            android:textColor="@color/gray" 
+            android:id="@+id/edit_friend_number2" 
+            android:layout_width="160.0dip" 
+            android:layout_height="40.0dip" 
+            android:layout_marginLeft="13.0dip" 
+            android:lines="1" android:maxLength="14" 
+            android:inputType="phone"
+            android:layout_toRightOf="@+id/textview_friend_number2" 
+            android:layout_centerVertical="true" />
+        </RelativeLayout>
+        
+        
+        <!-- 分隔线 -->
+        <ImageView android:id="@+id/line1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/split_line" 
+        android:layout_below="@+id/friend_number2_info" />
+        <!-- 好友Email -->
+        <RelativeLayout 
+        android:id="@+id/friend_email1_info" 
+        android:background="@drawable/shape_background_bottom" 
+        android:layout_width="fill_parent" 
+        android:layout_height="44.0dip" 
+        android:layout_below="@+id/line1">
+            <TextView android:textSize="16.0sp" 
+            android:textColor="#ff000000" 
+            android:id="@+id/textview_friend_email1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="13.0dip" 
+            android:text="好友Email1" 
+            android:layout_centerVertical="true" />
+            <EditText 
+            android:textSize="16.0sp" 
+            android:textColor="@color/gray" 
+            android:id="@+id/edit_friend_email1" 
+            android:layout_width="160.0dip" 
+            android:layout_height="40.0dip" 
+            android:layout_marginLeft="13.0dip" 
+            android:lines="1"
+            android:inputType="textEmailAddress"
+            android:layout_toRightOf="@+id/textview_friend_email1" 
+            android:layout_centerVertical="true" />
+        </RelativeLayout>
+        
+        <!-- 分隔线 -->
+        <ImageView android:id="@+id/line2" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/split_line" 
+        android:layout_below="@+id/friend_email1_info" />
+        <!-- 好友Email2 -->
+        <RelativeLayout 
+        android:id="@+id/friend_email2_info" 
+        android:background="@drawable/shape_background_bottom" 
+        android:layout_width="fill_parent" 
+        android:layout_height="44.0dip" 
+        android:layout_below="@+id/line2">
+            <TextView android:textSize="16.0sp" 
+            android:textColor="#ff000000" 
+            android:id="@+id/textview_friend_email2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="13.0dip" 
+            android:text="好友Email2" 
+            android:layout_centerVertical="true" />
+            <EditText 
+            android:textSize="16.0sp" 
+            android:textColor="@color/gray" 
+            android:id="@+id/edit_friend_email2" 
+            android:layout_width="160.0dip" 
+            android:layout_height="40.0dip" 
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="13.0dip" 
+            android:lines="1"
+            android:layout_toRightOf="@+id/textview_friend_email2" 
+            android:layout_centerVertical="true" />
+        </RelativeLayout>
+        
+       
+    </RelativeLayout>
+    
+    <!-- 设置按钮 -->
+    
+    <Button android:id="@+id/button_setting" 
+    android:background="@drawable/button_defult_state" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10.0dip" 
+    android:layout_marginTop="20.0dip" 
+    android:layout_marginRight="10.0dip" 
+    android:layout_marginBottom="30.0dip" 
+    android:text="设置" 
+    android:layout_alignParentBottom="true" 
+    android:layout_centerHorizontal="true" 
+    style="@style/btn_text_22_black_sdw_b" />
+</LinearLayout>
